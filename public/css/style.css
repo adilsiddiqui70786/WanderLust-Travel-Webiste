@@ -1,0 +1,142 @@
+body {
+	font-family: "Plus Jakarta Sans", sans-serif !important;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.container {
+	flex: 1;
+}
+
+.navbar {
+	height: 5rem;
+	background-color: #fff;
+}
+
+.fa-compass {
+	color: #fe424d;
+	font-size: 2rem;
+}
+
+.nav-link {
+	color: #222222 !important;
+}
+
+/* Style the entire footer */
+footer {
+	background-color: #f1f1f1;
+	color: #040303;
+	padding: 20px 0;
+	text-align: center;
+}
+
+/* Style the social media icons with hover animation */
+.socials i {
+	font-size: 24px;
+	margin: 0 10px;
+	color: #221818;
+	text-decoration: none;
+	transition: transform 0.3s, color 0.3s;
+}
+
+.socials i:hover {
+	transform: scale(1.2);
+	color: #fe424d;
+}
+
+/* Style the company name */
+.f-info > div:nth-child(2) {
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+/* Style the privacy and terms links */
+.link a {
+	color: #191412;
+	margin: 0 10px;
+	text-decoration: none;
+	transition: color 0.3s, border-bottom 0.3s;
+}
+
+.link a:hover {
+	border-bottom: 2px solid #ff4500;
+}
+
+/* Cards */
+
+.listing-card {
+	border: none !important;
+	margin-bottom: 2rem;
+}
+
+.card-img-top {
+	border-radius: 1rem !important;
+	width: 100% !important;
+	object-fit: cover !important;
+}
+
+.card-body {
+	padding: 0 !important;
+	margin: 1px;
+}
+
+.card-text p {
+	font-weight: 400;
+}
+
+.listing-link {
+	text-decoration: none;
+}
+
+.card-img-overlay {
+	opacity: 0;
+}
+
+.card-img-overlay:hover {
+	opacity: 0.2;
+	background-color: #fff;
+}
+
+/* New page */
+.add-btn {
+	background-color: #fe424d !important;
+	border: none !important;
+}
+/* edit page */
+.edit-btn {
+	background-color: #fe424d !important;
+	border: none !important;
+}
+
+.form-label {
+	font-weight: bold !important;
+}
+
+.form-control {
+	width: 100% !important;
+}
+
+/* Show Page */
+
+.show-img {
+	height: 30vh;
+}
+
+.show-card {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.btns {
+	display: flex;
+}
+
+/* Authentication Styles  */
+
+/* Maps */
+
+#map {
+	height: 400px;
+	width: 80vh;
+}
