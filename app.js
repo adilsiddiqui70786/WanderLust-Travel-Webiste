@@ -54,7 +54,7 @@ const store = MongoStore.create({
 	crypto: {
 		secret: process.env.SECRET,
 	},
-	touchAfter: 24 * 60 * 60,
+	touchAfter: 24 * 3600,
 });
 
 store.on("error", () => {
