@@ -2,6 +2,17 @@
 	"engines": {
 		"node": "18.17.1"
 	},
+	"name": "majorproject",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
 	"dependencies": {
 		"cloudinary": "^1.41.1",
 		"connect": "^3.7.0",
@@ -22,16 +33,5 @@
 		"passport": "^0.7.0",
 		"passport-local": "^1.0.0",
 		"passport-local-mongoose": "^8.0.0"
-	},
-	"name": "majorproject",
-	"version": "1.0.0",
-	"main": "index.js",
-	"scripts": {
-		"start": "node app.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"description": ""
+	}
 }
